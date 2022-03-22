@@ -54,11 +54,15 @@ header {
     position: relative;
 }
 
-.boxImg1, .boxImg2, .boxImg3 {
+.boxImg {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.boxImg img {
+    height: 350px;
 }
 
 
@@ -85,7 +89,7 @@ header {
     color: #ffff00;
     text-transform: uppercase;
     font-weight: 1000;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
 }
 
