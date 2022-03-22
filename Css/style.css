@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+   width: 100%;
+   
+}
+
+.mainNav ul li {
+    display: inline-block;
+}
+
+#shoesOne, #shoesTwo, #shoesThree {
+    position: relative;
+}
+
+.boxImg1, .boxImg2, .boxImg3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#shoesOne {
+    background-color: red;
+    height: 100vh;
+    width: 100%;
+}
+
+#shoesTwo {
+    background-color: #008000;
+    height: 100vh;
+    width: 100%;
+}
+
+#shoesThree {
+    background-color: #ffff00;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.item-description {
+    color: #ffff00;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 50px;
+    text-align: center;
+}
+
+.item-description.yellow {
+    color: #008000;
+}
